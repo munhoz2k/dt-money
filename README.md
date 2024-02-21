@@ -1,30 +1,58 @@
-# React + TypeScript + Vite
+<h1 align="center">GitHub Blog</h1>
+<p align="center">
+ <a href="#about">About</a> • 
+ <a href="#objective">Objective</a> •
+ <a href="#how to install">How to install</a> • 
+ <a href="#technologies">Technologies</a> • 
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+  
+# About
+This is a modern and simple page to keep an eye on your issues in your repositories.
+The design was made by Rocketseat Designers team and passed on to the students to develop the application.
+<br/>
+<br/>
+# Objective
+This project is a Rocketseat's challenge to the students where they have to develop the app by themselves.
+Github Blog wont go into production, the purpose of the application is just to practice
+<br/>
+<br/>
+# How to install  
+  
+### `Installing packages:`
+- First, clone the repository to your machine
+- After cloning the repository, open the terminal inside the cloned repository directory and type:
+```
+  npm install
+```  
+- Or
+```
+  yarn install
+```  
+  
+### `Optional:`
+- The app uses the GitHub's api, by default the api has a maximum of 10 request per minute which is very low.
+- You can change that number to 30 just by adding a `.env` file with your GitHub Personal Access Token.
+- The name of the variable must be `VITE_github_token`
+- Here is the example:
+```env
+  VITE_github_token="your_personal_token"
+```
+  
+### `Run the app:`
+- Now you gotta just run it...
+```
+  npm run dev
+```
+- Or
+```
+  yarn dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+# Technologies
+- [@react](https://github.com/facebook/react)
+- [@styled-components](https://github.com/styled-components/styled-components)
+- [@typescript](https://github.com/microsoft/TypeScript)
+- [@nodejs](https://github.com/nodejs/node)
+- [@vitejs](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md)
+- [@eslint](https://github.com/eslint/eslint)
