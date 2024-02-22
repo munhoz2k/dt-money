@@ -26,10 +26,6 @@ DT Money wont go into production, the purpose of the application is just to prac
 ```
   npm install
 ```  
-- Or
-```
-  yarn install
-```  
   
 ### `Run/install back-end server:`
 - The app uses the [@json-server](https://github.com/typicode/json-server) library, which is a pre-made backend server with several functions like CRUD, keeping data on a .json file and search function
@@ -37,28 +33,16 @@ DT Money wont go into production, the purpose of the application is just to prac
 ```
   npm install scheduler
 ```
-- Or
-```
-  yarn install scheduler
-```
 
 - After installing this second dependency, you just have to run the back-end server:
 ```
   npm run dev:server
-```
-- Or
-```
-  yarn dev:server
 ```
   
 ### `Run the app:`
 - Now you gotta just run the front-end app...
 ```
   npm run dev
-```
-- Or
-```
-  yarn dev
 ```
 
 # Technologies
